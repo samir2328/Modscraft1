@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00ffff;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #14171d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from-content{
+    width: fit-content;
+    padding: 30px 40px;
+    border: 2px solid silver;
+}
+.from-content div:not(sunmit){
+    margin: 25px 0px;
+    border-color: 1px solid white;
+}
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 6px 4px;
+    color: white;
+    font-size: 16px;
+}
+.submit button{
+    border: none;
+    outline: none;
+    background-color: #00ffff;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
